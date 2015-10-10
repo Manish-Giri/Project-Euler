@@ -82,6 +82,7 @@ public class Problem_1 {
         return numbersList;
     }
 
+    //method to generate int array from a List of integers
     public int[] buildIntArray(List<Integer> integers) {
         int[] ints = new int[integers.size()];
         int i = 0;
